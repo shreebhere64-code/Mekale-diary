@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #FFFFFF;
+  --cream: #FFFDD0;
+  --sky: #87CEEB;
+  --sky-deep: #5BAFD6;
+  --glass-bg: rgba(255,255,255,0.18);
+}
+
+body {
+  @apply bg-[#f7fbfe] text-[#1a2a35] overflow-x-hidden;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.glass-card {
+  @apply bg-white/55 backdrop-blur-3xl border border-white/70 shadow-lg;
+}
